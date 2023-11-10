@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "mpvkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/karelrooted/MPVKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c92812bbf905c8045adb0418a6c02c935910b4c9"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "532d8b529501fb73a2455b179e0bbb6d49b652ed",
+        "version" : "1.5.3"
+      }
+    }
+  ],
+  "version" : 2
+}
