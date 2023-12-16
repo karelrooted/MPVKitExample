@@ -9,6 +9,74 @@
 /* Begin PBXBuildFile section */
 		4F86B4EB2B2DD3E600032658 /* MPVKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F86B4EA2B2DD3E600032658 /* MPVKit */; };
 		4F86B4EF2B2DDA4100032658 /* MPVKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F86B4EE2B2DDA4100032658 /* MPVKit */; };
+		4F06458F2B2DB84E004A8228 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06458E2B2DB84E004A8228 /* PlayerModel.swift */; };
+		4F11234E2B2AD19E0085A8B5 /* PlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122F42B2AD19C0085A8B5 /* PlayerLayerView.swift */; };
+		4F11234F2B2AD19E0085A8B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122F52B2AD19C0085A8B5 /* Constants.swift */; };
+		4F1123502B2AD19E0085A8B5 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122F62B2AD19C0085A8B5 /* EnvironmentValues.swift */; };
+		4F1123522B2AD19E0085A8B5 /* PlayerTVMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122F92B2AD19C0085A8B5 /* PlayerTVMenu.swift */; };
+		4F1123532B2AD19E0085A8B5 /* PlayerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FA2B2AD19C0085A8B5 /* PlayerQueue.swift */; };
+		4F1123542B2AD19E0085A8B5 /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FB2B2AD19C0085A8B5 /* NavigationModel.swift */; };
+		4F1123552B2AD19F0085A8B5 /* NetworkStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FC2B2AD19C0085A8B5 /* NetworkStateModel.swift */; };
+		4F1123562B2AD19F0085A8B5 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FD2B2AD19C0085A8B5 /* Stream.swift */; };
+		4F1123572B2AD19F0085A8B5 /* ControlsOverlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FE2B2AD19C0085A8B5 /* ControlsOverlayModel.swift */; };
+		4F1123582B2AD19F0085A8B5 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1122FF2B2AD19C0085A8B5 /* Thumbnail.swift */; };
+		4F11235F2B2AD19F0085A8B5 /* PlayerTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123072B2AD19C0085A8B5 /* PlayerTimeModel.swift */; };
+		4F1123602B2AD19F0085A8B5 /* SeekModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123082B2AD19C0085A8B5 /* SeekModel.swift */; };
+		4F1123612B2AD19F0085A8B5 /* PlayerControlsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123092B2AD19C0085A8B5 /* PlayerControlsModel.swift */; };
+		4F1123622B2AD19F0085A8B5 /* PlayerQueueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230A2B2AD19C0085A8B5 /* PlayerQueueItem.swift */; };
+		4F1123632B2AD19F0085A8B5 /* PiPDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230B2B2AD19C0085A8B5 /* PiPDelegate.swift */; };
+		4F1123642B2AD19F0085A8B5 /* ThumbnailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230C2B2AD19C0085A8B5 /* ThumbnailsModel.swift */; };
+		4F1123652B2AD19F0085A8B5 /* DocumentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230D2B2AD19C0085A8B5 /* DocumentsModel.swift */; };
+		4F1123662B2AD19F0085A8B5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230E2B2AD19C0085A8B5 /* Video.swift */; };
+		4F1123672B2AD19F0085A8B5 /* PlayerQueueItemBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11230F2B2AD19C0085A8B5 /* PlayerQueueItemBridge.swift */; };
+		4F1123682B2AD19F0085A8B5 /* Captions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123102B2AD19C0085A8B5 /* Captions.swift */; };
+		4F1123692B2AD19F0085A8B5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123112B2AD19C0085A8B5 /* PersistenceController.swift */; };
+		4F11236A2B2AD19F0085A8B5 /* SafeAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123122B2AD19C0085A8B5 /* SafeAreaModel.swift */; };
+		4F11236C2B2AD19F0085A8B5 /* ScreenSaverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123152B2AD19D0085A8B5 /* ScreenSaverManager.swift */; };
+		4F11236D2B2AD19F0085A8B5 /* MacOSPiPDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123162B2AD19D0085A8B5 /* MacOSPiPDelegate.swift */; };
+		4F11236E2B2AD19F0085A8B5 /* VideoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123172B2AD19D0085A8B5 /* VideoLayer.swift */; };
+		4F11236F2B2AD19F0085A8B5 /* Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123182B2AD19D0085A8B5 /* Windows.swift */; };
+		4F1123702B2AD19F0085A8B5 /* ControlsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123192B2AD19D0085A8B5 /* ControlsBar.swift */; };
+		4F1123722B2AD19F0085A8B5 /* PlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11231C2B2AD19D0085A8B5 /* PlayerControls.swift */; };
+		4F1123732B2AD19F0085A8B5 /* ControlsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11231D2B2AD19D0085A8B5 /* ControlsOverlay.swift */; };
+		4F1123742B2AD19F0085A8B5 /* PlayerControlsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11231E2B2AD19D0085A8B5 /* PlayerControlsLayout.swift */; };
+		4F1123752B2AD19F0085A8B5 /* Seek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123202B2AD19D0085A8B5 /* Seek.swift */; };
+		4F1123762B2AD19F0085A8B5 /* Buffering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123212B2AD19D0085A8B5 /* Buffering.swift */; };
+		4F1123772B2AD19F0085A8B5 /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123222B2AD19D0085A8B5 /* NetworkState.swift */; };
+		4F1123782B2AD19F0085A8B5 /* ControlBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123232B2AD19D0085A8B5 /* ControlBackgroundModifier.swift */; };
+		4F1123792B2AD19F0085A8B5 /* PlaybackStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123242B2AD19D0085A8B5 /* PlaybackStatsView.swift */; };
+		4F11237A2B2AD19F0085A8B5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123252B2AD19D0085A8B5 /* ProgressBar.swift */; };
+		4F11237B2B2AD19F0085A8B5 /* VideoDetailsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123262B2AD19D0085A8B5 /* VideoDetailsOverlay.swift */; };
+		4F11237C2B2AD19F0085A8B5 /* SeekType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123272B2AD19D0085A8B5 /* SeekType.swift */; };
+		4F11237E2B2AD19F0085A8B5 /* OrientationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11232B2B2AD19D0085A8B5 /* OrientationModel.swift */; };
+		4F11237F2B2AD19F0085A8B5 /* OrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11232C2B2AD19D0085A8B5 /* OrientationTracker.swift */; };
+		4F1123802B2AD19F0085A8B5 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11232D2B2AD19D0085A8B5 /* Orientation.swift */; };
+		4F1123812B2AD19F0085A8B5 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11232E2B2AD19D0085A8B5 /* ShareSheet.swift */; };
+		4F1123822B2AD19F0085A8B5 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11232F2B2AD19D0085A8B5 /* Delay.swift */; };
+		4F1123832B2AD19F0085A8B5 /* PlayerDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123302B2AD19D0085A8B5 /* PlayerDragGesture.swift */; };
+		4F1123852B2AD19F0085A8B5 /* PlayerGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123322B2AD19E0085A8B5 /* PlayerGestures.swift */; };
+		4F1123872B2AD19F0085A8B5 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123342B2AD19E0085A8B5 /* Defaults.swift */; };
+		4F1123882B2AD19F0085A8B5 /* PlayerBackendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123352B2AD19E0085A8B5 /* PlayerBackendView.swift */; };
+		4F1123892B2AD19F0085A8B5 /* View+Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123372B2AD19E0085A8B5 /* View+Fixtures.swift */; };
+		4F11238A2B2AD19F0085A8B5 /* ToolbarColorScheme+Backport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123392B2AD19E0085A8B5 /* ToolbarColorScheme+Backport.swift */; };
+		4F11238B2B2AD19F0085A8B5 /* VisualEffectBlur-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11233A2B2AD19E0085A8B5 /* VisualEffectBlur-macOS.swift */; };
+		4F11238C2B2AD19F0085A8B5 /* ToolbarBackground+Backport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11233B2B2AD19E0085A8B5 /* ToolbarBackground+Backport.swift */; };
+		4F11238D2B2AD19F0085A8B5 /* VisualEffectBlur-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11233C2B2AD19E0085A8B5 /* VisualEffectBlur-iOS.swift */; };
+		4F11238E2B2AD19F0085A8B5 /* Backport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11233D2B2AD19E0085A8B5 /* Backport.swift */; };
+		4F11238F2B2AD19F0085A8B5 /* PersistentSystemOverlays+Backport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11233E2B2AD19E0085A8B5 /* PersistentSystemOverlays+Backport.swift */; };
+		4F1123902B2AD19F0085A8B5 /* AnimationCompletionObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123402B2AD19E0085A8B5 /* AnimationCompletionObserverModifier.swift */; };
+		4F1123912B2AD19F0085A8B5 /* RedrawOnModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123412B2AD19E0085A8B5 /* RedrawOnModifier.swift */; };
+		4F1123922B2AD19F0085A8B5 /* PlayerOverlayModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123422B2AD19E0085A8B5 /* PlayerOverlayModifier.swift */; };
+		4F1123932B2AD19F0085A8B5 /* TapRecognizerViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123432B2AD19E0085A8B5 /* TapRecognizerViewModifier.swift */; };
+		4F1123942B2AD19F0085A8B5 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123442B2AD19E0085A8B5 /* Throttle.swift */; };
+		4F1123952B2AD19F0085A8B5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123462B2AD19E0085A8B5 /* View.swift */; };
+		4F1123962B2AD19F0085A8B5 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123472B2AD19E0085A8B5 /* String+Localizable.swift */; };
+		4F1123972B2AD19F0085A8B5 /* UIViewController+HideHomeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123482B2AD19E0085A8B5 /* UIViewController+HideHomeIndicator.swift */; };
+		4F1123982B2AD19F0085A8B5 /* AVPlayerViewController+FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1123492B2AD19E0085A8B5 /* AVPlayerViewController+FullScreen.swift */; };
+		4F1123992B2AD19F0085A8B5 /* CaseIterable+Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11234A2B2AD19E0085A8B5 /* CaseIterable+Next.swift */; };
+		4F11239A2B2AD19F0085A8B5 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11234B2B2AD19E0085A8B5 /* Int.swift */; };
+		4F11239B2B2AD19F0085A8B5 /* CMTime+DefaultTimescale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11234C2B2AD19E0085A8B5 /* CMTime+DefaultTimescale.swift */; };
+		4F11239C2B2AD19F0085A8B5 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11234D2B2AD19E0085A8B5 /* Double+Format.swift */; };
 		4FC3ADCA2AFE4A6A00D71370 /* MPVKitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3ADC92AFE4A6A00D71370 /* MPVKitExampleApp.swift */; };
 		4FC3ADCC2AFE4A6A00D71370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3ADCB2AFE4A6A00D71370 /* ContentView.swift */; };
 		4FC3ADCE2AFE4A6C00D71370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC3ADCD2AFE4A6C00D71370 /* Assets.xcassets */; };
@@ -37,6 +105,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F06458E2B2DB84E004A8228 /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		4F1122F42B2AD19C0085A8B5 /* PlayerLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLayerView.swift; sourceTree = "<group>"; };
+		4F1122F52B2AD19C0085A8B5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F1122F62B2AD19C0085A8B5 /* EnvironmentValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		4F1122F92B2AD19C0085A8B5 /* PlayerTVMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTVMenu.swift; sourceTree = "<group>"; };
+		4F1122FA2B2AD19C0085A8B5 /* PlayerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerQueue.swift; sourceTree = "<group>"; };
+		4F1122FB2B2AD19C0085A8B5 /* NavigationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		4F1122FC2B2AD19C0085A8B5 /* NetworkStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStateModel.swift; sourceTree = "<group>"; };
+		4F1122FD2B2AD19C0085A8B5 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		4F1122FE2B2AD19C0085A8B5 /* ControlsOverlayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsOverlayModel.swift; sourceTree = "<group>"; };
+		4F1122FF2B2AD19C0085A8B5 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		4F1123072B2AD19C0085A8B5 /* PlayerTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTimeModel.swift; sourceTree = "<group>"; };
+		4F1123082B2AD19C0085A8B5 /* SeekModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekModel.swift; sourceTree = "<group>"; };
+		4F1123092B2AD19C0085A8B5 /* PlayerControlsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControlsModel.swift; sourceTree = "<group>"; };
+		4F11230A2B2AD19C0085A8B5 /* PlayerQueueItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerQueueItem.swift; sourceTree = "<group>"; };
+		4F11230B2B2AD19C0085A8B5 /* PiPDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiPDelegate.swift; sourceTree = "<group>"; };
+		4F11230C2B2AD19C0085A8B5 /* ThumbnailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailsModel.swift; sourceTree = "<group>"; };
+		4F11230D2B2AD19C0085A8B5 /* DocumentsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsModel.swift; sourceTree = "<group>"; };
+		4F11230E2B2AD19C0085A8B5 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4F11230F2B2AD19C0085A8B5 /* PlayerQueueItemBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerQueueItemBridge.swift; sourceTree = "<group>"; };
+		4F1123102B2AD19C0085A8B5 /* Captions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Captions.swift; sourceTree = "<group>"; };
+		4F1123112B2AD19C0085A8B5 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		4F1123122B2AD19C0085A8B5 /* SafeAreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeAreaModel.swift; sourceTree = "<group>"; };
+		4F1123152B2AD19D0085A8B5 /* ScreenSaverManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverManager.swift; sourceTree = "<group>"; };
+		4F1123162B2AD19D0085A8B5 /* MacOSPiPDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacOSPiPDelegate.swift; sourceTree = "<group>"; };
+		4F1123172B2AD19D0085A8B5 /* VideoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLayer.swift; sourceTree = "<group>"; };
+		4F1123182B2AD19D0085A8B5 /* Windows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Windows.swift; sourceTree = "<group>"; };
+		4F1123192B2AD19D0085A8B5 /* ControlsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsBar.swift; sourceTree = "<group>"; };
+		4F11231C2B2AD19D0085A8B5 /* PlayerControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControls.swift; sourceTree = "<group>"; };
+		4F11231D2B2AD19D0085A8B5 /* ControlsOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsOverlay.swift; sourceTree = "<group>"; };
+		4F11231E2B2AD19D0085A8B5 /* PlayerControlsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControlsLayout.swift; sourceTree = "<group>"; };
+		4F1123202B2AD19D0085A8B5 /* Seek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seek.swift; sourceTree = "<group>"; };
+		4F1123212B2AD19D0085A8B5 /* Buffering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buffering.swift; sourceTree = "<group>"; };
+		4F1123222B2AD19D0085A8B5 /* NetworkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
+		4F1123232B2AD19D0085A8B5 /* ControlBackgroundModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlBackgroundModifier.swift; sourceTree = "<group>"; };
+		4F1123242B2AD19D0085A8B5 /* PlaybackStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackStatsView.swift; sourceTree = "<group>"; };
+		4F1123252B2AD19D0085A8B5 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4F1123262B2AD19D0085A8B5 /* VideoDetailsOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailsOverlay.swift; sourceTree = "<group>"; };
+		4F1123272B2AD19D0085A8B5 /* SeekType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekType.swift; sourceTree = "<group>"; };
+		4F11232A2B2AD19D0085A8B5 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		4F11232B2B2AD19D0085A8B5 /* OrientationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationModel.swift; sourceTree = "<group>"; };
+		4F11232C2B2AD19D0085A8B5 /* OrientationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationTracker.swift; sourceTree = "<group>"; };
+		4F11232D2B2AD19D0085A8B5 /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		4F11232E2B2AD19D0085A8B5 /* ShareSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		4F11232F2B2AD19D0085A8B5 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		4F1123302B2AD19D0085A8B5 /* PlayerDragGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDragGesture.swift; sourceTree = "<group>"; };
+		4F1123322B2AD19E0085A8B5 /* PlayerGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerGestures.swift; sourceTree = "<group>"; };
+		4F1123342B2AD19E0085A8B5 /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		4F1123352B2AD19E0085A8B5 /* PlayerBackendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBackendView.swift; sourceTree = "<group>"; };
+		4F1123372B2AD19E0085A8B5 /* View+Fixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Fixtures.swift"; sourceTree = "<group>"; };
+		4F1123392B2AD19E0085A8B5 /* ToolbarColorScheme+Backport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToolbarColorScheme+Backport.swift"; sourceTree = "<group>"; };
+		4F11233A2B2AD19E0085A8B5 /* VisualEffectBlur-macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-macOS.swift"; sourceTree = "<group>"; };
+		4F11233B2B2AD19E0085A8B5 /* ToolbarBackground+Backport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToolbarBackground+Backport.swift"; sourceTree = "<group>"; };
+		4F11233C2B2AD19E0085A8B5 /* VisualEffectBlur-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VisualEffectBlur-iOS.swift"; sourceTree = "<group>"; };
+		4F11233D2B2AD19E0085A8B5 /* Backport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backport.swift; sourceTree = "<group>"; };
+		4F11233E2B2AD19E0085A8B5 /* PersistentSystemOverlays+Backport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersistentSystemOverlays+Backport.swift"; sourceTree = "<group>"; };
+		4F1123402B2AD19E0085A8B5 /* AnimationCompletionObserverModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCompletionObserverModifier.swift; sourceTree = "<group>"; };
+		4F1123412B2AD19E0085A8B5 /* RedrawOnModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedrawOnModifier.swift; sourceTree = "<group>"; };
+		4F1123422B2AD19E0085A8B5 /* PlayerOverlayModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOverlayModifier.swift; sourceTree = "<group>"; };
+		4F1123432B2AD19E0085A8B5 /* TapRecognizerViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapRecognizerViewModifier.swift; sourceTree = "<group>"; };
+		4F1123442B2AD19E0085A8B5 /* Throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		4F1123462B2AD19E0085A8B5 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4F1123472B2AD19E0085A8B5 /* String+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		4F1123482B2AD19E0085A8B5 /* UIViewController+HideHomeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideHomeIndicator.swift"; sourceTree = "<group>"; };
+		4F1123492B2AD19E0085A8B5 /* AVPlayerViewController+FullScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayerViewController+FullScreen.swift"; sourceTree = "<group>"; };
+		4F11234A2B2AD19E0085A8B5 /* CaseIterable+Next.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaseIterable+Next.swift"; sourceTree = "<group>"; };
+		4F11234B2B2AD19E0085A8B5 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		4F11234C2B2AD19E0085A8B5 /* CMTime+DefaultTimescale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+DefaultTimescale.swift"; sourceTree = "<group>"; };
+		4F11234D2B2AD19E0085A8B5 /* Double+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
 		4FC3ADC62AFE4A6A00D71370 /* MPVKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPVKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC3ADC92AFE4A6A00D71370 /* MPVKitExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVKitExampleApp.swift; sourceTree = "<group>"; };
 		4FC3ADCB2AFE4A6A00D71370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +216,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1122F82B2AD19C0085A8B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F1122F92B2AD19C0085A8B5 /* PlayerTVMenu.swift */,
+				4F06458E2B2DB84E004A8228 /* PlayerModel.swift */,
+				4F1122FA2B2AD19C0085A8B5 /* PlayerQueue.swift */,
+				4F1122FB2B2AD19C0085A8B5 /* NavigationModel.swift */,
+				4F1122FC2B2AD19C0085A8B5 /* NetworkStateModel.swift */,
+				4F1122FD2B2AD19C0085A8B5 /* Stream.swift */,
+				4F1122FE2B2AD19C0085A8B5 /* ControlsOverlayModel.swift */,
+				4F1122FF2B2AD19C0085A8B5 /* Thumbnail.swift */,
+				4F1123072B2AD19C0085A8B5 /* PlayerTimeModel.swift */,
+				4F1123082B2AD19C0085A8B5 /* SeekModel.swift */,
+				4F1123092B2AD19C0085A8B5 /* PlayerControlsModel.swift */,
+				4F11230A2B2AD19C0085A8B5 /* PlayerQueueItem.swift */,
+				4F11230B2B2AD19C0085A8B5 /* PiPDelegate.swift */,
+				4F11230C2B2AD19C0085A8B5 /* ThumbnailsModel.swift */,
+				4F11230D2B2AD19C0085A8B5 /* DocumentsModel.swift */,
+				4F11230E2B2AD19C0085A8B5 /* Video.swift */,
+				4F11230F2B2AD19C0085A8B5 /* PlayerQueueItemBridge.swift */,
+				4F1123102B2AD19C0085A8B5 /* Captions.swift */,
+				4F1123112B2AD19C0085A8B5 /* PersistenceController.swift */,
+				4F1123122B2AD19C0085A8B5 /* SafeAreaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F1123142B2AD19D0085A8B5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123152B2AD19D0085A8B5 /* ScreenSaverManager.swift */,
+				4F1123162B2AD19D0085A8B5 /* MacOSPiPDelegate.swift */,
+				4F1123172B2AD19D0085A8B5 /* VideoLayer.swift */,
+				4F1123182B2AD19D0085A8B5 /* Windows.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4F11231B2B2AD19D0085A8B5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				4F11231C2B2AD19D0085A8B5 /* PlayerControls.swift */,
+				4F11231D2B2AD19D0085A8B5 /* ControlsOverlay.swift */,
+				4F11231E2B2AD19D0085A8B5 /* PlayerControlsLayout.swift */,
+				4F11231F2B2AD19D0085A8B5 /* OSD */,
+				4F1123232B2AD19D0085A8B5 /* ControlBackgroundModifier.swift */,
+				4F1123242B2AD19D0085A8B5 /* PlaybackStatsView.swift */,
+				4F1123252B2AD19D0085A8B5 /* ProgressBar.swift */,
+				4F1123262B2AD19D0085A8B5 /* VideoDetailsOverlay.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		4F11231F2B2AD19D0085A8B5 /* OSD */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123202B2AD19D0085A8B5 /* Seek.swift */,
+				4F1123212B2AD19D0085A8B5 /* Buffering.swift */,
+				4F1123222B2AD19D0085A8B5 /* NetworkState.swift */,
+			);
+			path = OSD;
+			sourceTree = "<group>";
+		};
+		4F1123292B2AD19D0085A8B5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F11232A2B2AD19D0085A8B5 /* BridgingHeader.h */,
+				4F11232B2B2AD19D0085A8B5 /* OrientationModel.swift */,
+				4F11232C2B2AD19D0085A8B5 /* OrientationTracker.swift */,
+				4F11232D2B2AD19D0085A8B5 /* Orientation.swift */,
+				4F11232E2B2AD19D0085A8B5 /* ShareSheet.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4F1123362B2AD19E0085A8B5 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123372B2AD19E0085A8B5 /* View+Fixtures.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		4F1123382B2AD19E0085A8B5 /* Backports */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123392B2AD19E0085A8B5 /* ToolbarColorScheme+Backport.swift */,
+				4F11233A2B2AD19E0085A8B5 /* VisualEffectBlur-macOS.swift */,
+				4F11233B2B2AD19E0085A8B5 /* ToolbarBackground+Backport.swift */,
+				4F11233C2B2AD19E0085A8B5 /* VisualEffectBlur-iOS.swift */,
+				4F11233D2B2AD19E0085A8B5 /* Backport.swift */,
+				4F11233E2B2AD19E0085A8B5 /* PersistentSystemOverlays+Backport.swift */,
+			);
+			path = Backports;
+			sourceTree = "<group>";
+		};
+		4F11233F2B2AD19E0085A8B5 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123402B2AD19E0085A8B5 /* AnimationCompletionObserverModifier.swift */,
+				4F1123412B2AD19E0085A8B5 /* RedrawOnModifier.swift */,
+				4F1123422B2AD19E0085A8B5 /* PlayerOverlayModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		4F1123452B2AD19E0085A8B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F1123462B2AD19E0085A8B5 /* View.swift */,
+				4F1123472B2AD19E0085A8B5 /* String+Localizable.swift */,
+				4F1123482B2AD19E0085A8B5 /* UIViewController+HideHomeIndicator.swift */,
+				4F1123492B2AD19E0085A8B5 /* AVPlayerViewController+FullScreen.swift */,
+				4F11234A2B2AD19E0085A8B5 /* CaseIterable+Next.swift */,
+				4F11234B2B2AD19E0085A8B5 /* Int.swift */,
+				4F11234C2B2AD19E0085A8B5 /* CMTime+DefaultTimescale.swift */,
+				4F11234D2B2AD19E0085A8B5 /* Double+Format.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4FC3ADBD2AFE4A6A00D71370 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +360,26 @@
 		4FC3ADC82AFE4A6A00D71370 /* MPVKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				4F1123382B2AD19E0085A8B5 /* Backports */,
+				4F1122F52B2AD19C0085A8B5 /* Constants.swift */,
+				4F11231B2B2AD19D0085A8B5 /* Control */,
+				4F1123192B2AD19D0085A8B5 /* ControlsBar.swift */,
+				4F1123342B2AD19E0085A8B5 /* Defaults.swift */,
+				4F11232F2B2AD19D0085A8B5 /* Delay.swift */,
+				4F1122F62B2AD19C0085A8B5 /* EnvironmentValues.swift */,
+				4F1123452B2AD19E0085A8B5 /* Extensions */,
+				4F1123362B2AD19E0085A8B5 /* Fixtures */,
+				4F1123292B2AD19D0085A8B5 /* iOS */,
+				4F1123142B2AD19D0085A8B5 /* macOS */,
+				4F1122F82B2AD19C0085A8B5 /* Model */,
+				4F11233F2B2AD19E0085A8B5 /* Modifiers */,
+				4F1123352B2AD19E0085A8B5 /* PlayerBackendView.swift */,
+				4F1123302B2AD19D0085A8B5 /* PlayerDragGesture.swift */,
+				4F1123322B2AD19E0085A8B5 /* PlayerGestures.swift */,
+				4F1122F42B2AD19C0085A8B5 /* PlayerLayerView.swift */,
+				4F1123272B2AD19D0085A8B5 /* SeekType.swift */,
+				4F1123432B2AD19E0085A8B5 /* TapRecognizerViewModifier.swift */,
+				4F1123442B2AD19E0085A8B5 /* Throttle.swift */,
 				4FC3ADF72AFE4BBB00D71370 /* Info.plist */,
 				4FC3ADC92AFE4A6A00D71370 /* MPVKitExampleApp.swift */,
 				4FC3ADCB2AFE4A6A00D71370 /* ContentView.swift */,
@@ -275,8 +553,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1123562B2AD19F0085A8B5 /* Stream.swift in Sources */,
+				4F1123882B2AD19F0085A8B5 /* PlayerBackendView.swift in Sources */,
+				4F1123792B2AD19F0085A8B5 /* PlaybackStatsView.swift in Sources */,
+				4F1123722B2AD19F0085A8B5 /* PlayerControls.swift in Sources */,
+				4F1123742B2AD19F0085A8B5 /* PlayerControlsLayout.swift in Sources */,
+				4F11237E2B2AD19F0085A8B5 /* OrientationModel.swift in Sources */,
+				4F1123652B2AD19F0085A8B5 /* DocumentsModel.swift in Sources */,
+				4F1123762B2AD19F0085A8B5 /* Buffering.swift in Sources */,
+				4F1123992B2AD19F0085A8B5 /* CaseIterable+Next.swift in Sources */,
+				4F1123662B2AD19F0085A8B5 /* Video.swift in Sources */,
+				4F1123962B2AD19F0085A8B5 /* String+Localizable.swift in Sources */,
+				4F1123732B2AD19F0085A8B5 /* ControlsOverlay.swift in Sources */,
+				4F11236C2B2AD19F0085A8B5 /* ScreenSaverManager.swift in Sources */,
+				4F11238B2B2AD19F0085A8B5 /* VisualEffectBlur-macOS.swift in Sources */,
+				4F1123682B2AD19F0085A8B5 /* Captions.swift in Sources */,
+				4F1123502B2AD19E0085A8B5 /* EnvironmentValues.swift in Sources */,
+				4F1123752B2AD19F0085A8B5 /* Seek.swift in Sources */,
+				4F11237F2B2AD19F0085A8B5 /* OrientationTracker.swift in Sources */,
+				4F11237A2B2AD19F0085A8B5 /* ProgressBar.swift in Sources */,
+				4F11234E2B2AD19E0085A8B5 /* PlayerLayerView.swift in Sources */,
+				4F06458F2B2DB84E004A8228 /* PlayerModel.swift in Sources */,
 				4FC3ADCC2AFE4A6A00D71370 /* ContentView.swift in Sources */,
+				4F11236D2B2AD19F0085A8B5 /* MacOSPiPDelegate.swift in Sources */,
+				4F1123832B2AD19F0085A8B5 /* PlayerDragGesture.swift in Sources */,
+				4F1123852B2AD19F0085A8B5 /* PlayerGestures.swift in Sources */,
+				4F1123692B2AD19F0085A8B5 /* PersistenceController.swift in Sources */,
+				4F1123912B2AD19F0085A8B5 /* RedrawOnModifier.swift in Sources */,
+				4F11238F2B2AD19F0085A8B5 /* PersistentSystemOverlays+Backport.swift in Sources */,
+				4F11239B2B2AD19F0085A8B5 /* CMTime+DefaultTimescale.swift in Sources */,
+				4F1123782B2AD19F0085A8B5 /* ControlBackgroundModifier.swift in Sources */,
+				4F1123522B2AD19E0085A8B5 /* PlayerTVMenu.swift in Sources */,
+				4F1123932B2AD19F0085A8B5 /* TapRecognizerViewModifier.swift in Sources */,
+				4F11238E2B2AD19F0085A8B5 /* Backport.swift in Sources */,
+				4F11239A2B2AD19F0085A8B5 /* Int.swift in Sources */,
+				4F1123632B2AD19F0085A8B5 /* PiPDelegate.swift in Sources */,
+				4F1123902B2AD19F0085A8B5 /* AnimationCompletionObserverModifier.swift in Sources */,
+				4F1123622B2AD19F0085A8B5 /* PlayerQueueItem.swift in Sources */,
+				4F1123642B2AD19F0085A8B5 /* ThumbnailsModel.swift in Sources */,
 				4FC3ADCA2AFE4A6A00D71370 /* MPVKitExampleApp.swift in Sources */,
+				4F11236F2B2AD19F0085A8B5 /* Windows.swift in Sources */,
+				4F1123702B2AD19F0085A8B5 /* ControlsBar.swift in Sources */,
+				4F1123582B2AD19F0085A8B5 /* Thumbnail.swift in Sources */,
+				4F1123542B2AD19E0085A8B5 /* NavigationModel.swift in Sources */,
+				4F1123672B2AD19F0085A8B5 /* PlayerQueueItemBridge.swift in Sources */,
+				4F1123952B2AD19F0085A8B5 /* View.swift in Sources */,
+				4F11237B2B2AD19F0085A8B5 /* VideoDetailsOverlay.swift in Sources */,
+				4F11235F2B2AD19F0085A8B5 /* PlayerTimeModel.swift in Sources */,
+				4F1123612B2AD19F0085A8B5 /* PlayerControlsModel.swift in Sources */,
+				4F11238D2B2AD19F0085A8B5 /* VisualEffectBlur-iOS.swift in Sources */,
+				4F1123942B2AD19F0085A8B5 /* Throttle.swift in Sources */,
+				4F1123892B2AD19F0085A8B5 /* View+Fixtures.swift in Sources */,
+				4F1123602B2AD19F0085A8B5 /* SeekModel.swift in Sources */,
+				4F1123812B2AD19F0085A8B5 /* ShareSheet.swift in Sources */,
+				4F1123972B2AD19F0085A8B5 /* UIViewController+HideHomeIndicator.swift in Sources */,
+				4F11238C2B2AD19F0085A8B5 /* ToolbarBackground+Backport.swift in Sources */,
+				4F1123822B2AD19F0085A8B5 /* Delay.swift in Sources */,
+				4F1123572B2AD19F0085A8B5 /* ControlsOverlayModel.swift in Sources */,
+				4F1123802B2AD19F0085A8B5 /* Orientation.swift in Sources */,
+				4F1123532B2AD19E0085A8B5 /* PlayerQueue.swift in Sources */,
+				4F11237C2B2AD19F0085A8B5 /* SeekType.swift in Sources */,
+				4F11238A2B2AD19F0085A8B5 /* ToolbarColorScheme+Backport.swift in Sources */,
+				4F1123552B2AD19F0085A8B5 /* NetworkStateModel.swift in Sources */,
+				4F1123772B2AD19F0085A8B5 /* NetworkState.swift in Sources */,
+				4F11239C2B2AD19F0085A8B5 /* Double+Format.swift in Sources */,
+				4F1123982B2AD19F0085A8B5 /* AVPlayerViewController+FullScreen.swift in Sources */,
+				4F1123922B2AD19F0085A8B5 /* PlayerOverlayModifier.swift in Sources */,
+				4F11236A2B2AD19F0085A8B5 /* SafeAreaModel.swift in Sources */,
+				4F1123872B2AD19F0085A8B5 /* Defaults.swift in Sources */,
+				4F11236E2B2AD19F0085A8B5 /* VideoLayer.swift in Sources */,
+				4F11234F2B2AD19E0085A8B5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
